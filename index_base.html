@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Professor & Researcher</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --accent:#2f6fed;
+    --bg:#fafafa;
+    --card:white;
+    --text:#222;
+    --shadow:rgba(0,0,0,.08);
+    --radius:16px;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.5;
+    font-size:16px;
+}
+
+a{
+    color:var(--accent);
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:1.25rem;
+}
+
+header{
+    display:grid;
+    grid-template-columns:180px 1fr;
+    gap:2rem;
+    align-items:center;
+    padding:2.5rem 0;
+}
+
+.profile-photo{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid white;
+    box-shadow:0 6px 20px var(--shadow);
+}
+
+.hero h1{
+    font-size:2.4rem;
+    margin-bottom:.3rem;
+}
+
+.hero h2{
+    font-size:1.2rem;
+    color:#555;
+    font-weight:400;
+    margin-bottom:.8rem;
+}
+
+.hero p{
+    max-width:650px;
+}
+
+section{
+    margin:2.8rem 0;
+}
+
+h3{
+    font-size:1.7rem;
+    margin-bottom:1rem;
+    color:var(--accent);
+}
+
+.button{
+    display:inline-block;
+    margin-top:.8rem;
+    background:var(--accent);
+    color:white;
+    padding:.7rem 1.1rem;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:1rem;
+}
+
+.card{
+    background:var(--card);
+    padding:1.25rem;
+    border-radius:var(--radius);
+    box-shadow:0 4px 16px var(--shadow);
+}
+
+.card img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:.75rem;
+}
+
+/* RESEARCH SCROLLER */
+.research-scroll{
+    display:flex;
+    gap:1rem;
+    overflow-x:auto;
+    padding-bottom:1rem;
+    scroll-snap-type:x mandatory;
+}
+
+.research-scroll::-webkit-scrollbar{
+    height:10px;
+}
+
+.research-scroll::-webkit-scrollbar-thumb{
+    background:#ccc;
+    border-radius:10px;
+}
+
+.research-card{
+    min-width:320px;
+    max-width:320px;
+    flex:0 0 auto;
+    background:white;
+    border-radius:16px;
+    box-shadow:0 4px 16px var(--shadow);
+    padding:1rem;
+    scroll-snap-align:start;
+    transition:transform .2s;
+}
+
+.research-card:hover{
+    transform:translateY(-4px);
+}
+
+.research-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:.75rem;
+}
+
+.research-card h4{
+    margin-bottom:.4rem;
+}
+
+footer{
+    text-align:center;
+    color:#777;
+    padding:2rem 0;
+    margin-top:4rem;
+    border-top:1px solid #ddd;
+}
+
+@media(max-width:700px){
+    header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .profile-photo{
+        margin:auto;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+    <img src="images/profile.jpg" class="profile-photo" alt="Your Name">
+
+    <div class="hero">
+        <h1>Your Name</h1>
+        <h2>Professor • Researcher • Educator</h2>
+        <p>
+            I study artificial intelligence, computing education,
+            and human-centered technology—especially how people
+            and machines learn and solve problems together.
+        </p>
+    </div>
+</header>
+
+
+<section>
+    <h3>About Me</h3>
+    <p>
+        I’m a computer science professor, researcher, and teacher.
+        My work focuses on AI, education, and interactive systems.
+        I love designing tools and experiences that help people learn,
+        think, and create.
+    </p>
+</section>
+
+
+<section>
+    <h3>Featured Research</h3>
+
+    <div class="research-scroll">
+
+        <div class="research-card">
+            <img src="images/paper1.jpg">
+            <h4>AI for Education</h4>
+            <p>
+                Exploring how language models can support student learning
+                and improve classroom experiences.
+            </p>
+            <a href="#">Read more →</a>
+        </div>
+
+        <div class="research-card">
+            <img src="images/paper2.jpg">
+            <h4>Game-Based Learning</h4>
+            <p>
+                Designing intelligent game environments that promote
+                creativity and problem solving.
+            </p>
+            <a href="#">Read more →</a>
+        </div>
+
+        <div class="research-card">
+            <img src="images/paper3.jpg">
+            <h4>Human-AI Collaboration</h4>
+            <p>
+                Understanding how humans and AI systems can work together
+                effectively and ethically.
+            </p>
+            <a href="#">Read more →</a>
+        </div>
+
+        <div class="research-card">
+            <img src="images/paper4.jpg">
+            <h4>Interactive Systems</h4>
+            <p>
+                Building tools that help people explore, learn,
+                and create through interaction.
+            </p>
+            <a href="#">Read more →</a>
+        </div>
+
+    </div>
+
+    <a href="papers.html" class="button">All Publications</a>
+</section>
+
+
+<section>
+    <h3>Curriculum Vitae</h3>
+    <p>
+        Full academic CV including publications, teaching,
+        service, and grants.
+    </p>
+    <a href="cv.html" class="button">Open CV</a>
+</section>
+
+
+<section>
+    <h3>Other Links</h3>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h4>Teaching</h4>
+            <p>Courses, materials, and student resources.</p>
+        </div>
+
+        <div class="card">
+            <h4>Projects</h4>
+            <p>Software, experiments, and interactive tools.</p>
+        </div>
+
+        <div class="card">
+            <h4>Contact</h4>
+            <p>Email, office hours, and social links.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<footer>
+    © 2026 Your Name
+</footer>
+
+</div>
+
+</body>
+</html>
