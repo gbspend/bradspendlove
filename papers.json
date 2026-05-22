@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Teaching Language Models Through Play",
+    "authors": "Your Name, Student A, Student B",
+    "year": 2026,
+    "venue": "SIGCSE 2026",
+    "blurb": "Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "image": "images/paper1.jpg",
+    "url": "https://doi.org/xxxxx",
+    "featured":true
+  },
+  {
+    "title": "Human-AI Collaboration in Educational Games",
+    "authors": "Your Name, Collaborator",
+    "year": 2025,
+    "venue": "CHI 2025",
+    "blurb": "Investigates how students and AI systems collaborate in game environments.",
+    "image": "",
+    "url": "https://doi.org/yyyyy",
+    "featured":false
+  }
+]
