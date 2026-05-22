@@ -5,6 +5,7 @@
     --text:#e8eefc;
     --accent:#6ad9ff;
     --accent2:#7b7dff;
+	--button-bg:#0086b3;
     --border:rgba(255,255,255,0.12);
 	--card-clip: polygon(
         0% 0%,
@@ -52,7 +53,7 @@ a:hover{
 
 header{
     display:grid;
-    grid-template-columns:180px 1fr;
+    grid-template-columns:auto 1fr;
     gap:2rem;
     align-items:center;
     padding:2.5rem 0;
@@ -66,6 +67,11 @@ header{
     border:3px solid var(--accent);
     box-shadow:
         0 0 20px rgba(106,217,255,.25);
+}
+
+.profile-photo--small {
+  width: 115px;
+  height: 115px;
 }
 
 .hero h1{
@@ -88,7 +94,7 @@ header{
 }
 
 section{
-    margin:2.8rem 0;
+    margin:0 0 2.8rem;
 }
 
 h3{
@@ -100,7 +106,7 @@ h3{
 .button{
     display:inline-block;
     margin-top:.8rem;
-    background:#0086b3;
+    background:var(--button-bg);
     color:white;
     padding:.7rem 1.1rem;
     border-radius:8px;
@@ -220,10 +226,63 @@ h3::after{
         transparent
     );
     background-size:200% 100%;
-    animation: scan 8s linear infinite;
+    animation: scan 6s linear infinite;
 }
 
 @keyframes scan{
     from{background-position:0%}
     to{background-position:200%}
+}
+
+#publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#publications-list img{
+    width:300px;
+}
+
+.pronouns {
+  font-size: 0.5em;      /* smaller than the h1 */
+  color: #888;           /* different color */
+  margin-left: 0.5em;    /* spacing */
+}
+
+.social-links {
+  grid-column: span 3;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column; /* email on top, row underneath */
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.icon-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-links a {
+  text-decoration: none;
+}
+
+.icon-links a:hover {
+  text-decoration: underline;
+}
+
+/* Individual social links */
+.social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* makes whole header clickable area */
 }

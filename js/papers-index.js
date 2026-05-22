@@ -4,7 +4,6 @@ async function loadPapers() {
 	console.log(papers.length)
 
     const container = document.getElementById("research-scroll");
-
     papers
 	.filter(p => p.featured)
 	.forEach(paper => {
@@ -13,9 +12,9 @@ async function loadPapers() {
 
         card.innerHTML = `
             ${paper.image ? `<img src="${paper.image}" alt="${paper.title}">` : ""}
-            <h4>${paper.title}</h4>
+            <h4>${paper.title} (${paper.year})</h4>
             <p>${paper.blurb}</p>
-            <a href="${paper.url}" target="_blank">Read more →</a>
+            ${paper.url ? `<a href="${paper.url}" target="_blank">Paper link →</a>` : ""}
         `;
 
         container.appendChild(card);

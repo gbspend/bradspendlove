@@ -27,7 +27,7 @@ async function loadPublications() {
 			<p>with ${paper.authors}</p>
 			<p><em>${paper.venue}</em></p>
 			<p>${paper.blurb}</p>
-			<p><a href="${paper.url}" target="_blank">Paper link →</a></p>
+			${paper.url ? `<p><a href="${paper.url}" target="_blank" class="button">Paper link →</a></p>` : ""}
 		`;
 
         container.appendChild(div);
