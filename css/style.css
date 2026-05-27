@@ -3,9 +3,9 @@
     --bg2:#121a30;
     --card:rgba(255,255,255,0.06);
     --text:#e8eefc;
-    --accent:#6ad9ff;
+    --accent:#85d4ff;
     --accent2:#7b7dff;
-	--button-bg:#0086b3;
+	--button-bg:#3a95c7;
     --border:rgba(255,255,255,0.12);
 	--card-clip: polygon(
         0% 0%,
@@ -84,7 +84,7 @@ header{
 
 .hero h2{
     font-size:1.2rem;
-    color:#6ad9ff;
+    color:var(--accent);
     font-weight:400;
     margin-bottom:.8rem;
 }
@@ -155,12 +155,23 @@ section.no-style h3{
 }
 
 .research-card{
+	display: flex;
+    flex-direction: column;
     min-width:320px;
     max-width:320px;
     flex:0 0 auto;
     padding:1rem;
     scroll-snap-align:start;
     transition:transform .2s;
+}
+
+.research-card > *:last-child {
+  margin-top: auto;
+}
+
+.card-note {
+	font-style: italic;
+	color:var(--accent);
 }
 
 .card,

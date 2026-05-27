@@ -4,9 +4,9 @@
     "year":2026,
     "title":"An Initial Design for Generative Game Mechanics via LLM Function Emulation",
     "venue":"Proceedings of the 17th International Conference on Computational Creativity (Forthcoming).",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/dungeonMay26.jpg",
-    "url":"",
+    "url":"Forthcoming",
     "featured":true
   },
   {
@@ -14,7 +14,7 @@
     "year":2025,
     "title":"A Development and Teaching Framework for Codenames",
     "venue":"Proceedings of the 16th International Conference on Computational Creativity, 239-247.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/workshop24.jpg",
     "url":"https://doi.org/xxxxx",
     "featured":true
@@ -24,7 +24,7 @@
     "year":2023,
     "title":"Constraints as Catalysts: A (De) Construction of Codenames as a Creative Task",
     "venue":"Proceedings of the 14th International Conference on Computational Creativity, 337-341.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/cnclues.jpg",
     "url":"https://doi.org/xxxxx",
     "featured":true
@@ -34,7 +34,7 @@
     "year":2023,
     "title":"What Makes Gameplay Creative?",
     "venue":"Proceedings of the 14th International Conference on Computational Creativity, 98-101.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/iccc2023.jpg",
     "url":"https://doi.org/xxxxx",
     "featured":true
@@ -44,7 +44,7 @@
     "year":2022,
     "title":"Competitive Language Games as Creative Tasks with Well-Defined Goals",
     "venue":"Proceedings of the 13th International Conference on Computational Creativity, 291–299.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/iccc2022.jpg",
     "url":"https://doi.org/xxxxx",
     "featured":true
@@ -54,7 +54,7 @@
     "year":2020,
     "title":"Humans in the Black Box: A New Paradigm for Evaluating the Design of Creative Systems",
     "venue":"Proceedings of the 11th International Conference on Computational Creativity, 311–318.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"",
     "url":"https://doi.org/xxxxx",
     "featured":false
@@ -64,7 +64,7 @@
     "year":2020,
     "title":"Creating Six-word Stories via Inferred Linguistic and Semantic Formats",
     "venue":"Proceedings of the 11th International Conference on Computational Creativity, 123–130.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/iccc2020.jpg",
     "url":"https://doi.org/xxxxx",
     "featured":true
@@ -74,7 +74,7 @@
     "year":2019,
     "title":"Modeling Knowledge, Expression, and Aesthetics via Sensory Grounding",
     "venue":"Proceedings of the 10th International Conference on Computational Creativity, 326–330.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"images/iccc2019.jpg",
     "url":"https://doi.org/xxxxx",
     "featured":false
@@ -84,7 +84,7 @@
     "year":2018,
     "title":"An HBPL-based Approach to the Creation of Six-word Stories",
     "venue":"Proceedings of the 9th International Conference on Computational Creativity, 161–168.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"",
     "url":"https://doi.org/xxxxx",
     "featured":false
@@ -94,7 +94,7 @@
     "year":2019,
     "title":"A Usability Study of Four Secure Email Tools Using Paired Participants",
     "venue":"ACM Transactions on Privacy and Security (TOPS), 22(2), 13.",
-    "blurb":"Explores using language games to help students understand LLM behavior and prompting strategies.",
+    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "image":"",
     "url":"https://doi.org/xxxxx",
     "featured":false

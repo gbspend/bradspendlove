@@ -14,7 +14,7 @@ async function loadPapers() {
             ${paper.image ? `<img src="${paper.image}" alt="${paper.title}">` : ""}
             <h4>${paper.title} (${paper.year})</h4>
             <p>${paper.blurb}</p>
-            ${paper.url ? `<a href="${paper.url}" target="_blank">Paper link →</a>` : ""}
+            ${URL.canParse(paper.url) ? `<a href="${paper.url}" target="_blank">Paper link →</a>` : `<p class="card-note">${paper.url}</p>`}
         `;
 
         container.appendChild(card);
