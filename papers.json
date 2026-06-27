@@ -4,7 +4,7 @@
     "year":2026,
     "title":"An Initial Design for Generative Game Mechanics via LLM Function Emulation",
     "venue":"Proceedings of the 17th International Conference on Computational Creativity (Forthcoming).",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"Using a large language model to compute game state updates instead of hardcoded mechanics.",
     "image":"images/dungeonMay26.jpg",
     "url":"Forthcoming",
     "featured":true
@@ -14,9 +14,9 @@
     "year":2025,
     "title":"A Development and Teaching Framework for Codenames",
     "venue":"Proceedings of the 16th International Conference on Computational Creativity, 239-247.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"A multiplayer Codenames engine supporting human and AI palyers with HTML and REST clients.",
     "image":"images/workshop24.jpg",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc25/papers/iccc25-morain2025development.pdf",
     "featured":true
   },
   {
@@ -24,9 +24,9 @@
     "year":2023,
     "title":"Constraints as Catalysts: A (De) Construction of Codenames as a Creative Task",
     "venue":"Proceedings of the 14th International Conference on Computational Creativity, 337-341.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"Calculating the number of possible Codenames clues to analyze the creativity of the spymaster task.",
     "image":"images/cnclues.jpg",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_144.pdf",
     "featured":true
   },
   {
@@ -34,9 +34,9 @@
     "year":2023,
     "title":"What Makes Gameplay Creative?",
     "venue":"Proceedings of the 14th International Conference on Computational Creativity, 98-101.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"A game admits creative play if players choose from a large set of meaningful moves in a deterministic game.",
     "image":"images/iccc2023.jpg",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_139.pdf",
     "featured":true
   },
   {
@@ -44,9 +44,9 @@
     "year":2022,
     "title":"Competitive Language Games as Creative Tasks with Well-Defined Goals",
     "venue":"Proceedings of the 13th International Conference on Computational Creativity, 291–299.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"A creative system for playing Codenames and analysis of computational creative gameplay.",
     "image":"images/iccc2022.jpg",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc22/wp-content/uploads/2022/06/ICCC-2022_7L_Spendlove-and-Ventura.pdf",
     "featured":true
   },
   {
@@ -54,9 +54,9 @@
     "year":2020,
     "title":"Humans in the Black Box: A New Paradigm for Evaluating the Design of Creative Systems",
     "venue":"Proceedings of the 11th International Conference on Computational Creativity, 311–318.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"Proposing using human participants to compute creative module output to validate creative system design.",
     "image":"",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc20/papers/025-iccc20.pdf",
     "featured":false
   },
   {
@@ -64,9 +64,9 @@
     "year":2020,
     "title":"Creating Six-word Stories via Inferred Linguistic and Semantic Formats",
     "venue":"Proceedings of the 11th International Conference on Computational Creativity, 123–130.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"Expanded creative system for writing six-word stories using word embeddings to mimic human stories.",
     "image":"images/iccc2020.jpg",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc20/papers/020-iccc20.pdf",
     "featured":true
   },
   {
@@ -74,9 +74,9 @@
     "year":2019,
     "title":"Modeling Knowledge, Expression, and Aesthetics via Sensory Grounding",
     "venue":"Proceedings of the 10th International Conference on Computational Creativity, 326–330.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"A theoretical analysis of evaluating and communicating concepts built upon sensory input.",
     "image":"images/iccc2019.jpg",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc2019/papers/iccc19-lbp-4.pdf",
     "featured":false
   },
   {
@@ -84,9 +84,9 @@
     "year":2018,
     "title":"An HBPL-based Approach to the Creation of Six-word Stories",
     "venue":"Proceedings of the 9th International Conference on Computational Creativity, 161–168.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"Initial design for a creative system that writes six-word stories in a fixed format.",
     "image":"",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://computationalcreativity.net/iccc2018/sites/default/files/papers/ICCC_2018_paper_43.pdf",
     "featured":false
   },
   {
@@ -94,9 +94,9 @@
     "year":2019,
     "title":"A Usability Study of Four Secure Email Tools Using Paired Participants",
     "venue":"ACM Transactions on Privacy and Security (TOPS), 22(2), 13.",
-    "blurb":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "blurb":"",
     "image":"",
-    "url":"https://doi.org/xxxxx",
+    "url":"https://dl.acm.org/doi/pdf/10.1145/3313761",
     "featured":false
   }
 ]
