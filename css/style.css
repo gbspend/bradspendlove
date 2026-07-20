@@ -17,6 +17,11 @@
     );
 }
 
+html{
+    background:var(--bg);
+    overflow-x:hidden;
+}
+
 *{
     box-sizing:border-box;
     margin:0;
@@ -29,6 +34,7 @@ body{
     color:var(--text);
     line-height:1.5;
     font-size:16px;
+    overflow-x:hidden;
     background:
         linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px),
@@ -257,21 +263,63 @@ footer{
 
 @media(max-width:700px){
     header{
-        grid-template-columns:1fr;
-        text-align:center;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        text-align:left;
+        gap:.75rem 1rem;
+        padding:1rem 0;
+    }
+
+    /* Unwrap .hero on mobile only, so its children (h1, h2, p) become
+       direct flex items of header and can be independently reordered.
+       Desktop layout/DOM is untouched. */
+    .hero{
+        display:contents;
     }
 
     .profile-photo{
-        margin:auto;
+        width:72px;
+        height:72px;
+        margin:0;
+        flex-shrink:0;
+        order:1;
     }
 
     .hero h1{
-        font-size:2rem;
+        order:2;
+        font-size:1.5rem;
+        flex:1 1 auto;
+        min-width:0;
+    }
+
+    .pronouns, .bio2, .auth-ven{
+        display:none;
+    }
+
+    .hero h2{
+        order:3;
+        width:100%;
+        text-align:left;
+        font-size:1rem;
+    }
+
+    .affiliation{
+        font-size:0.9rem;
+    }
+
+    .hero p{
+        order:4;
+        width:100%;
+        max-width:none;
+        text-align:left;
     }
 
     .social-links{
-        grid-column:1 / -1;
-        align-items:center;
+        order:5;
+        width:100%;
+        align-items:flex-start;
+        text-align:left;
     }
 }
 
@@ -331,10 +379,15 @@ h3::after{
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
+  min-width: 0;
 }
 
 .icon-links a {
   text-decoration: none;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
 }
 
 .icon-links a:hover {

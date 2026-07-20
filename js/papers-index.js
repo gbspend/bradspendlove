@@ -1,7 +1,6 @@
 async function loadPapers() {
     const response = await fetch("papers.json");
     const papers = await response.json();
-	console.log(papers.length)
 
     const container = document.getElementById("research-scroll");
     papers

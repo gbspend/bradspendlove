@@ -24,8 +24,8 @@ async function loadPublications() {
         div.innerHTML = `
 			${paper.image ? `<img src="${paper.image}" alt="${paper.title}">` : ""}
 			<h4>${paper.title}</h4>
-			<p>with ${paper.authors}</p>
-			<p><em>${paper.venue}</em></p>
+			<p class="auth-ven">with ${paper.authors}</p>
+			<p class="auth-ven"><em>${paper.venue}</em></p>
 			<p>${paper.blurb}</p>
 			${paper.url ? `<p><a href="${paper.url}" target="_blank" class="button">Paper link →</a></p>` : ""}
 		`;
